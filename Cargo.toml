@@ -1,0 +1,11 @@
+[package]
+name = "axum_tower_livereaload_chrome_issue"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = { version = "0.7.7", features = ["macros"] }
+notify = { version = "6.1.1", default-features = false, features = ["macos_fsevent"] }
+tokio = { version = "1.40.0", features = ["macros", "rt-multi-thread"] }
+tower-http = { version = "0.6.1", features = ["fs"] }
+tower-livereload = "0.9.4"
