@@ -1,4 +1,4 @@
-# axum tower_liverealod chrome issue
+# axum tower_livereload chrome issue
 
 This is a test repo to verify behaviour I'm seeing. 
 It contains several static HTML files. If I start
